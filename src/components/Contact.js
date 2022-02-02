@@ -21,11 +21,11 @@ const Contact = () => {
     return (
         <div>
             <div className="ui raised very padded text container segment" style={{marginTop: '80px'}}>
-                <Link to = '/card/john' target='_blank' className="ui header">John</Link>
+                <Link to = '/john' target='_blank' className="ui header">John</Link>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minus voluptates repudiandae optio sint asperiores corporis eveniet culpa illum, vero voluptas similique totam at suscipit ipsum fugiat a? Laudantium, mollitia.</p>
             </div>
             <div className="ui raised very padded text container segment" style={{marginTop: '80px'}}>
-                <Link to = '/card/doe' className="ui header">Doe</Link>
+                <Link to = '/doe' className="ui header">Doe</Link>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo minus voluptates repudiandae optio sint asperiores corporis eveniet culpa illum, vero voluptas similique totam at suscipit ipsum fugiat a? Laudantium, mollitia.</p>
             </div>            
         </div>

@@ -20,7 +20,9 @@ function App() {
           <Route path='/about' element={<About/>} />
           <Route path='/contact' element={<Contact/>} />
           {/* untuk membuka halaman sesuai atau unik berdasarkan user */}
-          <Route path='/card/:user' element={<Card/>} />
+          {/* penamaannya tidak harus user tapi bisa apa saja */}
+          {/* <Route path='/card/:user' element={<Card/>} /> */}
+          <Route path='/:user' element={<Card/>} />
         </Routes>
       </div>
     </BrowserRouter>
