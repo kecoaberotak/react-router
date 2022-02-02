@@ -6,6 +6,8 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 
 // Ini pakai react-router-dom version 6, jadi Route harus didalam Routes
+// di versi 6, atribut component diganti element
+// value dari element syntax nya seperti ini {<nama.js/>}
 
 function App() {
   return (
